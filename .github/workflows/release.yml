@@ -13,8 +13,9 @@ on:
 
 permissions:
   id-token: write
-  contents: read
   pull-requests: write
+  actions: write
+  contents: write
 
 jobs:
   stable:
